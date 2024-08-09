@@ -26,6 +26,7 @@ You can also specify your own MongoDB server for storing analytics.  MongoDB 6.x
         * DBPORT
         * DBNAME
     * You can choose to change the HTTP_PORT variable (default 80).  Please keep in mind that this port is the one inside the container, so it's a beter idea if you don't change it.
+    * Add your SoP ID after variable WHITELIST_WEB3ID=@your
 1. Clone the `.env.dist` file into `.env` and customize.
     * You can customize your ports:
         * HTTP_PORT: published port of the server.  If you want your server to listen to a different port, this is the configuration that you need to change.
